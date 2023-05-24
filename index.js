@@ -3,7 +3,7 @@ $(document).ready(function() {
     var target = $(this).siblings(".cc_writer-demo-rich-text").first();
     if (target.length) {
       target.empty();
-      var text = ".....";
+      var text = "..............";
       animateTyping(target, text);
       $(this).remove();
     }
