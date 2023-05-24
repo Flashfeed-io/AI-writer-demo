@@ -1,4 +1,3 @@
-<script>
 $(document).ready(function() {
   $("#cc_writer-demo-concept").click(function() {
     var target = $(this).siblings(".cc_writer-demo-rich-text").first();
@@ -63,5 +62,3 @@ function applyStyle(element, tag) {
     }
   }
 }
-
-</script>
